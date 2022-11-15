@@ -1,5 +1,7 @@
-﻿System.Console.WriteLine("Введите число:");
-string week = Console.ReadLine();
+﻿//По заданному с клавиатуры номеру дня недели вывести его название
+
+System.Console.WriteLine("Введите число:");
+string? week=Console.ReadLine();
 
 if (week == "1")
 {
