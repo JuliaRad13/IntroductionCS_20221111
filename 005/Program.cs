@@ -1,4 +1,6 @@
-﻿System.Console.WriteLine("Введите число a:");
+﻿//С клавиатуры вводятся три числа. Найти максимальное из трех чисел
+
+System.Console.WriteLine("Введите число a:");
 double a=Convert.ToDouble(Console.ReadLine());
 System.Console.WriteLine("Введите число b:");
 double b=Convert.ToDouble(Console.ReadLine());
