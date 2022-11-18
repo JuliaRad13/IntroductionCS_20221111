@@ -5,7 +5,8 @@ do
 {
     System.Console.WriteLine("Введите число:");
     n=Convert.ToInt32(Console.ReadLine());
-} while (n<10 || n>99);
+} 
+while (n<10 || n>99);
 int d1=n/10;
 int d2=n%10;
 int max;
