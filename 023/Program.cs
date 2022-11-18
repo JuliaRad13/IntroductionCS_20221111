@@ -1,8 +1,9 @@
 ﻿// 23. Найти расстояние между точками в пространстве 2D
-double x1,x2,y1,y2,distance;
-int x1=Convert.ToInt32(Console.ReadLine());
-int x2=Convert.ToInt32(Console.ReadLine());
-int y1=Convert.ToInt32(Console.ReadLine());
-int y2=Convert.ToInt32(Console.ReadLine());
+double x1,y1,x2,y2,distance;
+x1=Convert.ToInt32(Console.ReadLine());
+y1=Convert.ToInt32(Console.ReadLine());
+x2=Convert.ToInt32(Console.ReadLine());
+y2=Convert.ToInt32(Console.ReadLine());
 
-distance=Mat
+distance=Math.Sqrt((x2-x1)*(x2-x1)+Math.Pow(y2-y1,2));
+System.Console.WriteLine(distance);
