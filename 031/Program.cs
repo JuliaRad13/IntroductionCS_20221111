@@ -8,7 +8,7 @@ double x=23;
 int o=(int)x;// явное привидение типов
 */
 
-bool Test(int a);
+bool Test(int a)
 {
     //if (a%2==0) return true; else return false;
     return a%2==0;
