@@ -8,6 +8,6 @@ while (i<=N)
  i=i+1; 
 }
 /*int N=Convert.ToInt32(Console.ReadLine());
-for(int i=-N;i,=N;i++)
+for(int i=-N;i<=N;i++)
 System.Console.WriteLine($"{i} ");
 */

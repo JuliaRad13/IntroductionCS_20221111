@@ -6,3 +6,9 @@ for (int a=1;a<=N;a++)
 {
     System.Console.Write($"{a*a} ");
 }
+/*
+System.Console.WriteLine("Введите число:");
+int N=Convert.ToInt32(Console.ReadLine());
+for (int a=1;a<=N;a++)
+System.Console.Write($"{a}^2= ");
+*/
