@@ -12,3 +12,4 @@ while (count<B)
     count++;
 }
 System.Console.WriteLine($"{A}*{B}={result}");
+ 
