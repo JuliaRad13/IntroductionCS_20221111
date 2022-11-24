@@ -17,7 +17,7 @@ int[] m=RandomIntArray(10);
 Print(m);
 */
 
-/*
+ // использовать этот вариант
 int[] RandomIntArray(int size, int min, int max) // или int min=0, int max=100
 {
     int[] a=new int[size];
@@ -33,8 +33,8 @@ void Print(int[] a)
 }
 int[] m=RandomIntArray(10,-100,100);// то сюда -100,100 не выводить
 Print(m);
-*/
 
+/*
 void RandomIntArray(ref int [] a, int size, int min, int max) 
 {
     a=new int[size];
@@ -50,3 +50,4 @@ void Print(int[] a)
 int[] m=new int[3];
 RandomIntArray(ref m);
 Print(m);
+*/
