@@ -12,7 +12,7 @@ int[] RandomIntArray(int size, int min, int max)
 void Print(int[] a)
 {
     for (int i = 0; i < a.Length; i++)
-    System.Console.Write($"{a[i],5}");   
+    System.Console.Write($"{a[i], 5}");   
 }
 int[] a=RandomIntArray(8,0,1);
 Print(a);
