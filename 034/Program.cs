@@ -36,4 +36,4 @@ int[] a=RandomIntArray(12,-9,9);
 Print(a);
 System.Console.WriteLine();
 System.Console.WriteLine($"Сумма положительных {SumPositive(a)}");
-System.Console.WriteLine($"Сумма положительных {SumNegative(a)}");
+System.Console.WriteLine($"Сумма отрицательных {SumNegative(a)}");
