@@ -21,7 +21,7 @@ void Print(int[] a)
     for (int i = 0; i < a.Length; i++)
     System.Console.Write($"{a[i],5}"); 
 }
-int[] a=RandomIntArray(12);
+int[] a=RandomIntArray(123);
 Print(a);
 System.Console.WriteLine();
 System.Console.WriteLine($"Колличество элементов из отрезка [10.99] равно {Count(a)}");
