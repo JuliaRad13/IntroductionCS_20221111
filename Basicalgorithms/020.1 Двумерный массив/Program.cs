@@ -38,7 +38,6 @@ void Print2DArray(int[,] a)
 bool LinearSearch2DArray(int[,] a, int find, out int i, out int j)// возвращаем позицию элементов, int find-искомое число
 {
     for (i = 0; i < a.GetLength(0); i++)
-
         for (j = 0; j < a.GetLength(1); j++)
             if (a[i, j] == find)
                 return true;
