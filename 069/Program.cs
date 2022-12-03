@@ -39,8 +39,8 @@ void Sort2DArray(int[,] a)
                     a[i, j+1] = t;
                 }
 }
-
+System.Console.WriteLine("Задан массив");
 Print2DArray(Number);
 Sort2DArray(Number);
-System.Console.WriteLine();
+System.Console.WriteLine("Упорядоченный массив");
 Print2DArray(Number);
