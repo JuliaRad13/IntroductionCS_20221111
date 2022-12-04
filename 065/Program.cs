@@ -22,7 +22,7 @@ void Print2DArray(int[,] a)
     }
 }
 // поиск в двумерном массиве(линейный)
-bool LinearSearch2DArray(int[,] a, int find, out int i, out int j)// возвращаем позицию элементов, int find-искомое число
+bool LinearSearch2DArray(int[,] a, int find, out int i, out int j)
 {
     for (i = 0; i < a.GetLength(0); i++)
         for (j = 0; j < a.GetLength(1); j++)
@@ -33,10 +33,10 @@ bool LinearSearch2DArray(int[,] a, int find, out int i, out int j)// возвр�
 }
 
 int[,] a = Random2DArray(5, 5);
-int find = 20; // условие поиска LinearSearch2DArray
-a[2, 2] = find; // условие поиска LinearSearch2DArray, если оставить выводит в массиве, если // то Element not found
+int find = 20; 
+a[0, 1] = find; 
 Print2DArray(a);
-int i, j; // условие поиска LinearSearch2DArray
+int i, j; 
 if (LinearSearch2DArray(a, find, out i, out j))
     System.Console.WriteLine($"Element {find} fount in position {i},{j}");
 else

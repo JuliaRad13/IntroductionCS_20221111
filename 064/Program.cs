@@ -1,7 +1,7 @@
 ﻿// 64. В двумерном массиве заменить элементы, 
 // у которых оба индекса чётные на их квадраты по значению.
 
-int[,] Random2DArrayMN(int m, int n, int min = 0, int max = 20)
+int[,] Random2DArrayMN(int m, int n, int min = 10, int max = 30)
 {
     int[,] a = new int[m, n];
     Random random = new Random();
@@ -20,14 +20,14 @@ void Print2DArrayMN(int[,] a)
     }
 }
 
-int[,] EvenNumbers(int[,] a)
+void EvenNumbers(int[,] a)
 {
     for (int i = 0; i < a.GetLength(0); i++)
     {
         for (int j = 0; j < a.GetLength(1); j++)
             if (i % 2 == 0 && j % 2 == 0) a[i, j] = (int)Math.Pow(a[i, j], 2);
     }
-    return a;
+    return ;
 }
 int[,] a = Random2DArrayMN(5, 5);
 Print2DArrayMN(a);
