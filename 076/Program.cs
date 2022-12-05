@@ -11,7 +11,7 @@ System.Console.WriteLine(Power(2, 3));
 
 /*
 // с отрицательными числами
-int Power(int a, int b)
+double Power(int a, int b)
 {
     if (b > 0) return Power(a, b - 1) * a;
         else
