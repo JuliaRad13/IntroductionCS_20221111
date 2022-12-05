@@ -16,3 +16,4 @@ int SumNumbers(int Top)
 int X=Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Сумма цифр в числе: ");
 System.Console.WriteLine(SumNumbers(X));
+ 
