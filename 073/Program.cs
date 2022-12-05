@@ -1,8 +1,5 @@
 ﻿// 73. Найти сумму элементов от M до N, N и M заданы
 
-int n=1;
-int m=3;
-
 int Sum(int m, int n)
 {
     if(m==n) return m;
