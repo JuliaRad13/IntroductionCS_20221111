@@ -11,7 +11,7 @@ int NaturalNumber(int a, int b)
 }
 System.Console.WriteLine(NaturalNumber(6, 1));
 
-
+/*
 int NaturalNumber(int a, int b)
 {
     if (a == 0 && b == 0) return 0;
@@ -28,3 +28,4 @@ int NaturalNumber(int a, int b)
     }
 }
        System.Console.WriteLine(NaturalNumber(1, 6));
+       */
